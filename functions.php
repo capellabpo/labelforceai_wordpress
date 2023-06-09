@@ -56,7 +56,25 @@ function latest_post() {
         endwhile;
     endif;
 }
-
 add_shortcode('lastest-post', 'latest_post');
+
+// Disable WordPress Admin Bar for all users
+add_filter( 'show_admin_bar', '__return_false' );
+
+
+// Including CSS files
+
+// function my_admin_style() {
+//     wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.scss');
+//     wp_enqueue_script( 'main', get_template_directory_uri() . 'assets/js/script.js');
+// }
+// add_action('wp_enqueue_scripts', 'my_admin_style');
+
+function wp_enqueue_scripts_callback(){
+    wp_enqueue_script( 'mainjs', get_template_directory_uri() . '/assets/js/mainjs.js', '', '', true);
+    wp_enqueue_style( 'mainstyle', get_template_directory_uri() . '/assets/css/mainstyle.css');
+    // echo "Does this shit work?";
+}
+add_action('init', 'wp_enqueue_scripts_callback');
 
 ?>

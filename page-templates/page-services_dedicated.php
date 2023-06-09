@@ -1,8 +1,8 @@
-<?php /* Template Name: Contacts */ ?>
+<?php /* Template Name: Dedicated */ ?>
 <?php get_header(); ?>
 
 <div class="body_container">
-    <h1>Contacts</h1>
+    <h1>Services: Dedicated Team</h1>
 </div>
 
 <?php get_footer(); ?>

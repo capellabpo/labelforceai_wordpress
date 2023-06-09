@@ -1,6 +1,8 @@
 <?php /* Template Name: Blogs */ ?>
 <?php get_header(); ?>
 
+<div class="body_container">
+
 <!-- Latest Blog -->
 <?php echo do_shortcode('[lastest-post]'); ?>
 
@@ -20,7 +22,6 @@
         
         }  
     }
-    
 
     foreach( $myposts as $post) : setup_postdata( $post ) ?>
         
@@ -35,6 +36,8 @@
 
         <a href="<?php the_permalink(); ?>">More!</a>
     <?php endforeach; ?>
+</div>
+
 </div>
 
 <?php get_footer(); ?>
