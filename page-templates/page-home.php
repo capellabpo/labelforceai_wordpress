@@ -520,31 +520,339 @@
                     Don't just take our word for it - hear from our clients about their experience with Labelforce AI
                 </p>
             </div>
-            <div class="section_reviews marquee-container">
+            <div class="section_reviews">
+                <div class="section_clip">
+                    <!-- ROW 1 -->
+                    <div class="section_review_rows">
+                        
+                        <!-- CARD 1 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Semantic Segmentation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                    Excellent work in semantic segmentation - each pixel accurately assigned, work delivered promptly, and effective communication maintained. Highly professional and recommended service.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 27, 2023</p>
+                            </div>
+                        </div>
 
-                <div class="section_review_rows marquee" id="marquee">
-                    
-                    <!-- CARD 1 -->
-                    <div class="section_review_cards card">
-                        card 1
+                        <!-- CARD 2 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Text Summarization
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Impressive text summarization – fluent, accurate, and concise summaries of lengthy documents. Timely delivery and clear communication added to a remarkable experience. Their skill and dedication are commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Feb 10, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 3 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Human Pose Estimation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Superb human pose estimation - accurate labeling of human figures for posture understanding. Prompt completion and effective communication. Their expertise in handling this intricate task is commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Feb 10, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 4 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Named Entity Recognition (NER)
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Exceptional work on Named Entity Recognition - accurate labeling of varied entities in text data. Efficient delivery, superb communication, and clear understanding of our needs. Their expertise is highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>April 20, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 5 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Facial Landmark Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Superior facial landmark annotation - precise marking of key facial features. Quick turnaround and clear communication. Their expertise in this detailed task, vital for emotion detection, is highly appreciated.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Aug 10, 2022</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 6 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Optical Character Recognition (OCR) Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Impressive OCR annotation – precise extraction of text from images and scanned documents. Quick delivery and clear communication. Their professionalism and expertise in handling complex tasks are highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 13, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 7 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Text Classification
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Excellent text classification work – accurately labeled text data, effectively categorized customer reviews. Quick turnaround and clear communication. Their professional handling of the task was highly appreciated.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 20, 2022</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 8 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Video Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Outstanding video annotation work - precise labeling and object tracking, quick turnaround, and superb communication. Their expertise is apparent and highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 24, 2023</p>
+                            </div>
+                        </div>
+                        
+
                     </div>
 
-                    <!-- CARD 2 -->
-                    <div class="section_review_cards card">
-                        card 2
-                    </div>
+                    <!-- ROW 2 -->
+                    <div class="section_review_rows2">
+                        
+                        <!-- CARD 1 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Semantic Segmentation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                    Excellent work in semantic segmentation - each pixel accurately assigned, work delivered promptly, and effective communication maintained. Highly professional and recommended service.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 27, 2023</p>
+                            </div>
+                        </div>
 
-                    <!-- CARD 3 -->
-                    <div class="section_review_cards card">
-                        card 3
-                    </div>
+                        <!-- CARD 2 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Text Summarization
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Impressive text summarization – fluent, accurate, and concise summaries of lengthy documents. Timely delivery and clear communication added to a remarkable experience. Their skill and dedication are commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Feb 10, 2023</p>
+                            </div>
+                        </div>
 
-                    <!-- CARD 4 -->
-                    <div class="section_review_cards card">
-                        card 4
-                    </div>
-                    
+                        <!-- CARD 3 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Human Pose Estimation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Superb human pose estimation - accurate labeling of human figures for posture understanding. Prompt completion and effective communication. Their expertise in handling this intricate task is commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Feb 10, 2023</p>
+                            </div>
+                        </div>
 
+                        <!-- CARD 4 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                        Named Entity Recognition (NER)
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Exceptional work on Named Entity Recognition - accurate labeling of varied entities in text data. Efficient delivery, superb communication, and clear understanding of our needs. Their expertise is highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>April 20, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 5 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Facial Landmark Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Superior facial landmark annotation - precise marking of key facial features. Quick turnaround and clear communication. Their expertise in this detailed task, vital for emotion detection, is highly appreciated.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Aug 10, 2022</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 6 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Optical Character Recognition (OCR) Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Impressive OCR annotation – precise extraction of text from images and scanned documents. Quick delivery and clear communication. Their professionalism and expertise in handling complex tasks are highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 13, 2023</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 7 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Text Classification
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Excellent text classification work – accurately labeled text data, effectively categorized customer reviews. Quick turnaround and clear communication. Their professional handling of the task was highly appreciated.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 20, 2022</p>
+                            </div>
+                        </div>
+
+                        <!-- CARD 8 -->
+                        <div class="section_review_cards card">
+                            <div class="section_review_head">
+                                <div class="section_review_title">
+                                    <p>
+                                    Video Annotation
+                                    </p>
+                                </div>
+                                <div class="section_review_star"></div>
+                            </div>
+                            <div class="section_content">
+                                <p>
+                                Outstanding video annotation work - precise labeling and object tracking, quick turnaround, and superb communication. Their expertise is apparent and highly commendable.
+                                </p>
+                            </div>
+                            <div class="section_date">
+                                <p>Jan 24, 2023</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
                 </div>
             </div>
         </div>
