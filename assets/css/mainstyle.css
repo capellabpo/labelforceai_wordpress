@@ -67,8 +67,14 @@ h6 {
 }
 
 /* HEADER NAVIGATION */
-.head_nav_container {
+.main_header_container_fixed {
     z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.head_nav_container {
     height: 80px;
     width: 100%;
     display: flex;
@@ -76,10 +82,6 @@ h6 {
     justify-content: center;
     padding-right: 50px;
     padding-left: 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
 }
 .head_limit {
     width: 1440px;
@@ -189,6 +191,51 @@ h6 {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.sub_menu {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    display: none;
+    z-index: 100;
+}
+.sub_services {
+    margin: auto;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #8bcdff3a;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px #8bcdff3a;
+}
+.sub_section_1, .sub_section_2 {
+    width: 300px;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub_icon_dedicated, .sub_icon_shared {
+    width: 60%;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sub_icon_dedicated {
+    background-size: 60%;
+    background-image: url("../images/services/service_dedicated.svg");
+}
+.sub_icon_shared {
+    background-size: 80%;
+    background-image: url("../images/services/service_shared.svg");
+}
+
 
 /* BODY SECTION */
 .body_container {
@@ -956,6 +1003,13 @@ h6 {
 } 
 .gradient_text_title_2 {
     font-size: 60px;
+    font-family: font_bold;
+    background: -webkit-linear-gradient(45deg, #1F9CFF, #891CF7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub_menu_title p{
+    font-size: 20px;
     font-family: font_bold;
     background: -webkit-linear-gradient(45deg, #1F9CFF, #891CF7);
     -webkit-background-clip: text;

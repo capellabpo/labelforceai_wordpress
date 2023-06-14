@@ -3,6 +3,25 @@ function gohome() {
     location.href = `${location.origin}/wordpress`;
     
 }
+function showSubMenu() {
+    // SHOW SUBMENU
+    document.getElementById("submenu").style.display = "block";
+}
+var close_menu = document.getElementById("close_menu");
+close_menu.addEventListener('mouseleave', function(event) {
+    if (event.target === close_menu) {
+        // HIDE SUBMENU
+        document.getElementById("submenu").style.display = "none";
+    }
+});
+function services(num) {
+    if(num == 1) {
+        location.href = `${location.origin}/wordpress/services-dedicated`;
+    }
+    else {
+        location.href = `${location.origin}/wordpress/services-shared`;
+    }
+}
 
 // window.onload = function() {
 //     // alert();
