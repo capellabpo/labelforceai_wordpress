@@ -73,6 +73,10 @@ h6 {
     top: 0;
     left: 0;
     background-color: white;
+    width: 100%;
+}
+.main_header_center {
+    margin: auto;
 }
 .head_nav_container {
     height: 80px;
@@ -785,6 +789,12 @@ h6 {
 .explain_big_img_2 {
     background-image: url("../images/service_shared/imgg_02.png");
 }
+.explain_big_img_3 {
+    background-image: url("../images/service_dedicated/imgg_03.png");
+}
+.explain_big_img_4 {
+    background-image: url("../images/service_dedicated/imgg_04.png");
+}
 .explain_small {
     display: block;
 }
@@ -856,6 +866,30 @@ h6 {
 }
 .section_service_img_6 {
     background-image: url("../images/service_shared/more/single.png");
+}
+.section_service_img_7 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/benefits/flexible.png");
+}
+.section_service_img_8 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/benefits/consistentcy.png");
+}
+.section_service_img_9 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/benefits/increased.png");
+}
+.section_service_img_10 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/more/expertise.png");
+}
+.section_service_img_11 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/more/cost.png");
+}
+.section_service_img_12 {
+    background-size: 90%;
+    background-image: url("../images/service_dedicated/more/long-term.png");
 }
 
 /* PRICING */
@@ -934,6 +968,14 @@ h6 {
 .pricing_card_label p {
     margin: 0%;
     font-size: 16px;
+}
+.pricing_card_label_dark {
+    color: #181E29;
+    font-family: font_bold;
+}
+.pricing_card_label_blue {
+    color: #1F9CFF;
+    font-family: font_bold;
 }
 .pricing_card_title p {
     font-size: 20px;
@@ -1318,3 +1360,18 @@ h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.btn_fit_content {
+    width: fit-content;
+    padding: 4px;
+
+}
+.button_white {
+    border-radius: 100px;
+    background-color: white;
+    width: 100%;
+    padding: 15px 30px;
+    color: #144EE3;
+    font-family: font_bold;
+}
+

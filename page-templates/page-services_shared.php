@@ -374,7 +374,7 @@
                             </p>
                         </div>
                         <div class="how_card_button">
-                            <button class="head_free_trial_btn" onclick="services(2)"> 
+                            <button class="head_free_trial_btn"> 
                                 Create Account
                             </button>
                         </div>

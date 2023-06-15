@@ -1,5 +1,6 @@
 <div class="main_header_container_fixed">
 
+<div class="main_header_center">
 
 <div class="head_nav_container">
     <div class="head_limit">
@@ -75,6 +76,8 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>
 
 </div>
