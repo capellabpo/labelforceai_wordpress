@@ -240,9 +240,9 @@ h6 {
 /* BODY SECTION */
 .body_container {
     margin-top: 100px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .body_block {
     display: block;
@@ -742,20 +742,311 @@ h6 {
     background-position: center;
     background-image: url("../images/star.svg");
 }
-/* .section_review_cover_right {
-    z-index: 99;
-    position: relative;
-    left: 0;
-    top: 0;
+.explain_container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.explain_big, .explain_small {
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.explain_big, .explain_big_title {
+    display: block;
+    margin: 0;
+}
+.explain_big_text, .explain_big_title {
+    width: 400px;
+}
+.explain_big_text p {
+    font-family: font_medium;
+    font-size: 20px;
+}
+.explain_big_title p {
+    font-family: font_bold;
+    font-size: 30px;
+}
+.explain_big_img_1,
+.explain_big_img_2,
+.explain_big_img_3,
+.explain_big_img_4 {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    width: 440px;
+    height: 450px;
+}
+.explain_big_img_1 {
+    background-image: url("../images/service_shared/imgg_01.png");
+}
+.explain_big_img_2 {
+    background-image: url("../images/service_shared/imgg_02.png");
+}
+.explain_small {
+    display: block;
+}
+.explain_card {
+    display: block;
+    margin-bottom: 50px;
+}
+.explain_card_text {
+    width: 300px;
+}
+.explain_card_text p {
+    font-family: font_medium;
+    font-size: 16px;
+}
+.explain_card_head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.explain_card_icon_1,
+.explain_card_icon_2,
+.explain_card_icon_3,
+.explain_card_icon_4,
+.explain_card_icon_5,
+.explain_card_icon_6 {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.explain_card_icon_1 {
+    background-image: url("../images/service_shared/icons/icon_file.svg");
+}
+.explain_card_icon_2 {
+    background-image: url("../images/service_shared/icons/icon_envelope.svg");
+}
+.explain_card_icon_3 {
+    background-image: url("../images/service_shared/icons/icon_calendar.svg");
+}
+.explain_card_icon_4 {
+    background-image: url("../images/service_shared/icons/icon_robot.svg");
+}
+.explain_card_icon_5 {
+    background-image: url("../images/service_shared/icons/icon_invoice.svg");
+}
+.explain_card_icon_6 {
+    background-image: url("../images/service_shared/icons/icon_clock.svg");
+}
 
-    border: 1px solid pink;
-    background: -webkit-linear-gradient(45deg, white, transparent);
-    width: 100px; 
-    height: 1000px; 
-} */
+.section_service_card_height {
+    height: 450px;
+}
+.section_service_img_1 {
+    background-image: url("../images/service_shared/benefits/flexible.png");
+}
+.section_service_img_2 {
+    background-image: url("../images/service_shared/benefits/scalable.png");
+}
+.section_service_img_3 {
+    background-image: url("../images/service_shared/benefits/quality.png");
+}
+.section_service_img_4 {
+    background-image: url("../images/service_shared/more/training.png");
+}
+.section_service_img_5 {
+    background-image: url("../images/service_shared/more/cost-effective.png");
+}
+.section_service_img_6 {
+    background-image: url("../images/service_shared/more/single.png");
+}
 
+/* PRICING */
+.pricing_container, .pricing_flex{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pricing_shared {
+    width: 600px;
+}
+.pricing_shared_title p {
+    margin: 0;
+    font-family: font_bold;
+    font-size: 30px;
+}
+.pricing_shared_text p {
+    font-size: 20px;
+    line-height: 34px;
+}
+.pricing_shared_link {
+    font-size: 20px;
+    font-family: font_bold;
+    color: #1F9CFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pricing_shared_link:hover {
+    color: #891CF7;
+    transition: 0.3s;
+}
+.pricing_card {
+    border: 1px solid #98A5BD;
+    width: 300px;
+    height: fit-content;
+    padding: 30px;
+    margin-left: 50px;
+    margin-rgiht: 50px;
+    border-radius: 20px;
+}
+.pricing_card_icon_1,
+.pricing_card_icon_2,
+.pricing_card_icon_3 {
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pricing_card_icon_1 {
+    background-image: url("../images/pricing/icon_tag.svg");
+}
+.pricing_card_icon_2 {
+    background-image: url("../images/pricing/icon_grow.svg");
+}
+.pricing_card_icon_3 {
+    background-image: url("../images/pricing/icon_expand.svg");
+}
+.pricing_card_check {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/icon_check.svg");
+    margin-right: 20px;
+}
+.pricing_card_icontext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.pricing_card_label p {
+    margin: 0%;
+    font-size: 16px;
+}
+.pricing_card_title p {
+    font-size: 20px;
+    font-family: font_bold;
+    background: -webkit-linear-gradient(45deg, #1F9CFF, #144EE3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pricing_card_price p {
+    font-size: 30px;
+    font-family: font_bold;
+}
+.pricing_card_label p {
+    font-size: 16px;
+    font-family: font_medium;
+    margin-bottom: 20px;
+}
 
-
+/* HOW */
+.how_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hwo_block {
+    display: block;
+}
+.how_section {
+    display: block;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+.how_card {
+    width: 1000px;
+}
+.how_number {
+    width: 40px;
+    height: 40px;
+    background: -webkit-linear-gradient(45deg, #1F9CFF, #144EE3);
+    color: white;
+    font-family: font_bold;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.how_head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.how_texts {
+    display: block;
+}
+.how_title p {
+    margin: 0%;
+    font-size: 20px;
+    font-family: font_bold;
+    color: #181E29;
+}
+.how_sub p {
+    font-size: 16px;
+    font-family: font_bold;
+}
+.how_card {
+    width: 100%;
+    border: 1px solid #8bcdff41;
+    padding: 55px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.how_card_icon, .how_card_note_icon {
+    min-width: 20px;
+    min-height: 20px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+.how_card_icon {
+    background-image: url("../images/icon_arrow_down.svg");
+}
+.how_card_note_icon {
+    background-image: url("../images/icon_bulb.svg");
+}
+.how_card_title p {
+    margin: 0;
+    font-family: font_bold;
+}
+.how_card_button {
+    display: flex;
+    justify-content: flex-end;
+}
+.how_card_note {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #8bcdff41;
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.how_card_note_text p {
+    color: #1F9CFF;
+    font-family: font_bold;
+}
 
 /* FOOTER */
 .foot_main_container {
@@ -980,6 +1271,9 @@ h6 {
 .btn_fit {
     width: auto !important;
 }
+.remove_margin {
+    margin: 0%;
+}
 .add_margin {
     margin-left: 5px;
     margin-right: 5px;
@@ -994,19 +1288,28 @@ h6 {
     font-family: font_semibold;
     font-size: 20px;
 }
-.gradient_text_title_1 {
+.gradient_text_title_1,
+.gradient_text_title_5 {
     font-size: 60px;
     font-family: font_bold;
     background: -webkit-linear-gradient(45deg, #1F9CFF, #144EE3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 } 
-.gradient_text_title_2 {
+.gradient_text_title_2,
+.gradient_text_title_3,
+.gradient_text_title_4 {
     font-size: 60px;
     font-family: font_bold;
     background: -webkit-linear-gradient(45deg, #1F9CFF, #891CF7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.gradient_text_title_3, .gradient_text_title_5 {
+    font-size: 30px;
+}
+.gradient_text_title_4 {
+    font-size: 20px;
 }
 .sub_menu_title p{
     font-size: 20px;
