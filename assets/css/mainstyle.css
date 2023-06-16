@@ -1089,9 +1089,69 @@ h6 {
     color: #1F9CFF;
     font-family: font_bold;
 }
+.how_card_text p {
+    line-height: 34px;
+}
+
+/* FAQs */
+.faq_main_container {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.faq_block {
+    margin: auto;
+    display: block;
+    width: 1000px;
+    height: fit-content;
+}
+.faq_card {
+    border-radius: 20px;
+    width: 1000px;
+    padding: 30px;
+    border: 2px solid #8bcdff41;
+    margin-bottom: 30px;
+}
+.faq_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.faq_header_title p {
+    font-size: 20px;
+    font-family: font_bold;
+}
+.faq_content p {
+    line-height: 34px;
+    font-size: 16px;
+}
+.faq_header_title {
+    width: 100%;
+    padding-right: 20px;
+}
+.faq_content {
+    width: 100%;
+    height: fit-content;
+    height: 0px;
+}
+.faq_content p {
+    line-height: 34px;
+    display: none;
+}
+.faq_header_icon {
+    cursor: pointer;
+    min-width: 30px;
+    min-height: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/icon_caret_right.svg");
+    transform: rotate(90deg);
+}
 
 /* FOOTER */
-.foot_main_container {
+.faq_main_container {
     display: block;
     align-items: center;
     justify-content: center;

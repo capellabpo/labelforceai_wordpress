@@ -23,6 +23,106 @@ function services(num) {
     }
 }
 
+// PRICING
+document.getElementById("dediacted_service").style.display = "none";
+function pricing(num) {
+    if(num == 1) {
+        // Show Shared Team Pricing
+        document.getElementById("shared_service").style.display = "block";
+        
+        // Remove Dedicated Team Pricing
+        document.getElementById("dediacted_service").style.display = "none";
+        
+        // SWAP CLASSES
+        document.getElementById("btn_shared").classList.remove("btn_3rd");
+        document.getElementById("btn_shared").classList.add("btn_main");
+
+        document.getElementById("btn_dedicated").classList.remove("btn_main");
+        document.getElementById("btn_dedicated").classList.add("btn_3rd");
+
+    }
+    else {
+        // Remove Shared Team Pricing
+        document.getElementById("shared_service").style.display = "none";
+        
+        // Show Dedicated Team Pricing
+        document.getElementById("dediacted_service").style.display = "block";
+
+        // SWAP CLASSES
+        document.getElementById("btn_shared").classList.remove("btn_main");
+        document.getElementById("btn_shared").classList.add("btn_3rd");
+
+        document.getElementById("btn_dedicated").classList.remove("btn_3rd");
+        document.getElementById("btn_dedicated").classList.add("btn_main");
+        
+    }
+}
+
+// FAQs
+function open_faq(num) {
+    if(num == 1) {
+        var faq_height = document.getElementById("faq_1").clientHeight;
+        if(parseInt(faq_height) != 0) {
+            document.getElementById("faq_1").style.height = "0";
+            document.getElementById("p_1").style.display = "none";
+            
+        }
+        else {
+            document.getElementById("p_1").style.display = "block";
+            document.getElementById("faq_1").style.height = "fit-content";
+        }
+    }
+    else if(num == 2) {
+        var faq_height = document.getElementById("faq_2").clientHeight;
+        if(parseInt(faq_height) != 0) {
+            document.getElementById("faq_2").style.height = "0";
+            document.getElementById("p_2").style.display = "none";
+            
+        }
+        else {
+            document.getElementById("p_2").style.display = "block";
+            document.getElementById("faq_2").style.height = "fit-content";
+        }
+    }
+    else if(num == 3) {
+        var faq_height = document.getElementById("faq_3").clientHeight;
+        if(parseInt(faq_height) != 0) {
+            document.getElementById("faq_3").style.height = "0";
+            document.getElementById("p_3").style.display = "none";
+            
+        }
+        else {
+            document.getElementById("p_3").style.display = "block";
+            document.getElementById("faq_3").style.height = "fit-content";
+        }
+    }
+    else if(num == 4) {
+        var faq_height = document.getElementById("faq_4").clientHeight;
+        if(parseInt(faq_height) != 0) {
+            document.getElementById("faq_4").style.height = "0";
+            document.getElementById("p_4").style.display = "none";
+            
+        }
+        else {
+            document.getElementById("p_4").style.display = "block";
+            document.getElementById("faq_4").style.height = "fit-content";
+        }
+    }
+    else if(num == 5) {
+        var faq_height = document.getElementById("faq_5").clientHeight;
+        if(parseInt(faq_height) != 0) {
+            document.getElementById("faq_5").style.height = "0";
+            document.getElementById("p_5").style.display = "none";
+            
+        }
+        else {
+            document.getElementById("p_5").style.display = "block";
+            document.getElementById("faq_5").style.height = "fit-content";
+        }
+    }
+}
+
+
 // window.onload = function() {
 //     // alert();
 //     console.log('Hello World');
